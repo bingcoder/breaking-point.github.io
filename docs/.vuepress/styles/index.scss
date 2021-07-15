@@ -1,0 +1,17 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+.nav-link {
+  &.sidebar-heading {
+    &.sidebar-item {
+      &.active {
+        color: var(--c-text) !important;
+      }
+    }
+  }
+}
+
+.router-link-active.router-link-exact-active.nav-link.router-link-active.sidebar-heading.sidebar-item.active {
+  color: var(--c-text-accent) !important;
+}

@@ -5,8 +5,8 @@ title: 你好
 heroText: null
 tagline: Octocat的笔记本
 actions:
-  - text: Github地址
-    link: https://github.com/breaking-point
+  - text: 开始探索
+    link: /base/html
     type: primary
   - text: 个人简介
     link: /profile

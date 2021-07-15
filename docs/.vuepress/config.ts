@@ -72,16 +72,16 @@ export default defineUserConfig<DefaultThemeOptions>({
     //     },
     //   },
     // ],
-    // [
-    //   '@vuepress/plugin-search',
-    //   {
-    //     locales: {
-    //       '/': {
-    //         placeholder: '搜索',
-    //       },
-    //     },
-    //   },
-    // ],
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: '搜索',
+          },
+        },
+      },
+    ],
     [
       '@vuepress/plugin-register-components',
       {

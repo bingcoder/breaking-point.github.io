@@ -4,7 +4,7 @@ import type { NavbarConfig } from '@vuepress/theme-default';
 
 const navbar: NavbarConfig = [
   {
-    text: '基础知识',
+    text: '基础📖',
     children: [
       {
         text: 'Html',
@@ -21,7 +21,7 @@ const navbar: NavbarConfig = [
     ],
   },
   {
-    text: '框架🚀 ',
+    text: '框架🚀',
     children: [
       {
         text: 'React',
@@ -43,7 +43,7 @@ const navbar: NavbarConfig = [
     ],
   },
   {
-    text: '其他📖',
+    text: '其他💡',
     children: [
       {
         text: 'Git',
